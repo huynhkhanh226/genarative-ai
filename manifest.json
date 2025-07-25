@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My Chrome Extension",
+  "name": "Generative AI",
   "version": "1.0",
   "description": "A Chrome Extension using React + TypeScript + Vite + Tailwind CSS",
   "action": {

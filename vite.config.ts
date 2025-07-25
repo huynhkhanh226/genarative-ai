@@ -19,8 +19,18 @@ export default defineConfig(({ mode }) => {
       __OPENAI_API_KEY__: JSON.stringify(env.VITE_OPENAI_API_KEY),
     },
     server: {
-      host: 'localhost',
-      port: 3000
-    }
+      host: "localhost",
+      port: 3000,
+    },
+    // build: {
+    //   target: "esnext",
+    //   sourcemap: false,
+    //   rollupOptions: {
+    //     output: {
+    //       entryFileNames: "assets/[name].js",
+    //       chunkFileNames: "assets/[name]-[hash].js",
+    //     },
+    //   },
+    // },
   };
 });
